@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Het waren bezoekers aan het Stadspark die_877a4a</name>
+   <tag></tag>
+   <elementGuidId>60e0fd61-87d5-4254-b8f0-92fc7a97e5f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.article__paragraph</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='page-main-content']/div[2]/div[2]/div[2]/div/div/article/div/div[4]/div[4]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Het waren bezoekers aan het Stadspark die zaterdagmiddag het lichaam zagen drijv&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>eac3a874-af16-4335-abb1-f6828f871643</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>article__paragraph</value>
+      <webElementGuid>f6d0c97f-3a0f-43ed-b25c-db4fa060c155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Het waren bezoekers aan het Stadspark die zaterdagmiddag het lichaam zagen drijven in de vijver. Ze verwittigden meteen de hulpdiensten. De politie kwam ter plaatse en zette een deel van de omgeving af. Het labo en de wetsdokter kwamen ook ter plaatse. De brandweer plaatse een rode tent zodat het lichaam aan het zicht onttrokken kon worden zodra het uit het water werd gehaald.</value>
+      <webElementGuid>30104667-06de-4c05-8929-0f135922e989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-main-content&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;col-wrapper has-grid-layout&quot;]/div[@class=&quot;container-col-holder is-primary-left&quot;]/div[@class=&quot;col col--primary&quot;]/article[@class=&quot;article&quot;]/div[@class=&quot;article__wrapper&quot;]/div[@class=&quot;article__body fjs-login-gate fjs-load-remaining-content&quot;]/div[@class=&quot;article__component article__component--paragraph&quot;]/p[@class=&quot;article__paragraph&quot;]</value>
+      <webElementGuid>095be77c-fc89-45c8-a345-dc6724c08fc1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='page-main-content']/div[2]/div[2]/div[2]/div/div/article/div/div[4]/div[4]/p</value>
+      <webElementGuid>bd9c6480-3f76-4e1c-9001-7b14145a2a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lichaam gevonden in Antwerps stadspark'])[1]/following::p[1]</value>
+      <webElementGuid>e822dc09-d895-41e8-95d1-934fb7b3af6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dempen opheffen'])[1]/following::p[1]</value>
+      <webElementGuid>cead0745-3c23-49c1-87f9-2f3c3669575a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blijf op de hoogte'])[1]/preceding::p[3]</value>
+      <webElementGuid>5be29350-350e-4f06-b143-1b1d7ada9c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hier'])[1]/preceding::p[3]</value>
+      <webElementGuid>f4e51a8e-c655-4c26-9492-3e4422d49e3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Het waren bezoekers aan het Stadspark die zaterdagmiddag het lichaam zagen drijven in de vijver. Ze verwittigden meteen de hulpdiensten. De politie kwam ter plaatse en zette een deel van de omgeving af. Het labo en de wetsdokter kwamen ook ter plaatse. De brandweer plaatse een rode tent zodat het lichaam aan het zicht onttrokken kon worden zodra het uit het water werd gehaald.']/parent::*</value>
+      <webElementGuid>66aa6d8d-08b0-4368-8cfa-feb567ec47ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/p</value>
+      <webElementGuid>c8df2cdd-2750-4f01-a2be-3b48f7fcf3ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Het waren bezoekers aan het Stadspark die zaterdagmiddag het lichaam zagen drijven in de vijver. Ze verwittigden meteen de hulpdiensten. De politie kwam ter plaatse en zette een deel van de omgeving af. Het labo en de wetsdokter kwamen ook ter plaatse. De brandweer plaatse een rode tent zodat het lichaam aan het zicht onttrokken kon worden zodra het uit het water werd gehaald.' or . = 'Het waren bezoekers aan het Stadspark die zaterdagmiddag het lichaam zagen drijven in de vijver. Ze verwittigden meteen de hulpdiensten. De politie kwam ter plaatse en zette een deel van de omgeving af. Het labo en de wetsdokter kwamen ook ter plaatse. De brandweer plaatse een rode tent zodat het lichaam aan het zicht onttrokken kon worden zodra het uit het water werd gehaald.')]</value>
+      <webElementGuid>d0ad9113-52f4-4ffd-bfdd-11498b9909b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

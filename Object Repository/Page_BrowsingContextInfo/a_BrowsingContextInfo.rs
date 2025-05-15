@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_BrowsingContextInfo</name>
+   <tag></tag>
+   <elementGuidId>4b823163-4aa9-46a7-9b78-fba4994b6004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-first.even-row-color.method-summary-table.method-summary-table-tab1.method-summary-table-tab4 > code > a[title=&quot;class in org.openqa.selenium.bidi.browsingcontext&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='method-summary-table.tabpanel']/div/div[4]/code/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>code >> internal:has-text=&quot;static BrowsingContextInfo&quot;i >> internal:attr=[title=&quot;class in org.openqa.selenium.bidi.browsingcontext&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cf69d0ee-6bff-4976-bdb0-3e176434c58a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>BrowsingContextInfo.html</value>
+      <webElementGuid>7b6e19ff-b252-494e-8acc-aa9c82f1bc49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>class in org.openqa.selenium.bidi.browsingcontext</value>
+      <webElementGuid>3cc16d8f-564d-4acc-8b0e-ead2d4b2f3f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BrowsingContextInfo</value>
+      <webElementGuid>86ec5676-06b3-49ac-9733-f8ecc90c98a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;method-summary-table.tabpanel&quot;)/div[@class=&quot;summary-table three-column-summary&quot;]/div[@class=&quot;col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4&quot;]/code[1]/a[1]</value>
+      <webElementGuid>3f4eed6c-b218-41dd-89d7-beb3b3bbcc1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='method-summary-table.tabpanel']/div/div[4]/code/a</value>
+      <webElementGuid>bedd7f17-7d34-48a1-a3be-b204bbd26e2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'BrowsingContextInfo')])[3]</value>
+      <webElementGuid>4c0567be-8dce-4915-9e95-93cf43b91940</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/following::a[1]</value>
+      <webElementGuid>e6ed0e04-53e0-4fee-a36c-ddadb4b6321c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fromJson'])[1]/preceding::a[1]</value>
+      <webElementGuid>f7024606-cc1e-4b09-96be-900a072059c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'BrowsingContextInfo.html')])[3]</value>
+      <webElementGuid>3873f4be-0b15-467a-84cb-557a0a951cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/code/a</value>
+      <webElementGuid>9c75de9d-8a4b-4734-9cb8-da04216cdca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'BrowsingContextInfo.html' and @title = 'class in org.openqa.selenium.bidi.browsingcontext' and (text() = 'BrowsingContextInfo' or . = 'BrowsingContextInfo')]</value>
+      <webElementGuid>31585a16-ff42-4474-bdce-d96ff21ae8a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

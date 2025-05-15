@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ja, ik wil via e-mail productinformatie v_819e8d</name>
+   <tag></tag>
+   <elementGuidId>11c6f182-e7b4-41d0-9304-9b0ca60960ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.tm-overflow-scroll__space.fjs-tm-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='remaining-paid-content']/div[2]/div/aside/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.tm-overflow-scroll__space</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ed049f1f-e56c-429a-ac53-4803d44ee8d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tm-overflow-scroll__space fjs-tm-close</value>
+      <webElementGuid>d4209be3-520e-4491-89e3-1d3c29b4180f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;remaining-paid-content&quot;)/div[@class=&quot;article__component article__component--paywall-module-notification&quot;]/div[@class=&quot;fjs-paywall-notification&quot;]/aside[@class=&quot;kjmihjie&quot;]/div[@class=&quot;tm-overflow-scroll fjs-tm-overflow-scroll&quot;]/a[@class=&quot;tm-overflow-scroll__space fjs-tm-close&quot;]</value>
+      <webElementGuid>9deee1dc-16f1-4ccd-81ae-ee858445a975</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='remaining-paid-content']/div[2]/div/aside/div/a</value>
+      <webElementGuid>9f70b9bf-99fb-4f72-ac64-3d94b637a32e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/a</value>
+      <webElementGuid>4598404c-8acc-4d81-b660-9fe659946944</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
