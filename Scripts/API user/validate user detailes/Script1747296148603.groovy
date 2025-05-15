@@ -17,19 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+response = WS.sendRequest(findTestObject('API user/GetUserDetails'))
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WS.verifyResponseStatusCode(response, 200)
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Email_Email'), GlobalVariable.USERSNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_Password'), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_RememberMe'))
-
-WebUI.verifyElementPresent(findTestObject('Page_nopCommerce demo store. Login/button_Log in'), 4)
-
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/button_Log in'))
-
-WebUI.closeBrowser()
+WS.verifyElementPropertyValue(response, 'data.first_name', 'Janet')
 

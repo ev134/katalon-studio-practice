@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+response1 = WS.sendRequest(findTestObject('API user/PutUpdateUser', [('userName') : GlobalVariable.USERSNAME]))
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+def slurper = new groovy.json.JsonSlurper()
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Email_Email'), GlobalVariable.USERSNAME)
+def result = slurper.parseText(response1.getResponseBodyContent())
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_Password'), GlobalVariable.PASSWORD)
+def value = result.data[1].first_name
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_RememberMe'))
+println('Value extractd is: ' + value)
 
-WebUI.verifyElementPresent(findTestObject('Page_nopCommerce demo store. Login/button_Log in'), 4)
+GlobalVariable.USERSNAME = value
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/button_Log in'))
+println('Global variable now is: ' + GlobalVariable.USERSNAME)
 
-WebUI.closeBrowser()
+WS.sendRequestAndVerify(findTestObject('API user/PutUpdateUser'))
 
