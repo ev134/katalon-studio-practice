@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case (7)</name>
+   <name>login</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7d5c0b16-0b90-449f-8437-298d1bd7754f</testCaseGuid>
+   <testCaseGuid>11c95956-483a-4b0d-b96b-e0c23d274968</testCaseGuid>
 </TestCaseEntity>
