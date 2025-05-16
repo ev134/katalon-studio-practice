@@ -17,19 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Email_Email'), GlobalVariable.USERSNAME)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_Password'), GlobalVariable.PASSWORD)
-
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/input_Password_RememberMe'))
-
-WebUI.verifyElementPresent(findTestObject('Page_nopCommerce demo store. Login/button_Log in'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/button_Log in'))
-
-WebUI.closeBrowser()
-
+CucumberKW.runFeatureFile('Include/features/BDDLogin.feature')
